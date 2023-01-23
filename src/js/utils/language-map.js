@@ -289,10 +289,10 @@ const langs = {
     'en-US': 'Sorry, trailer not found',
     'uk-UA': 'Вибачте, трейлер не знайдено',
   },
-  detailsNotFound: {
-    'en-US': 'No information',
-    'uk-UA': 'Інформації немає',
-  },
+  // detailsNotFound: {
+  //   'en-US': 'No information',
+  //   'uk-UA': 'Інформації немає',
+  // },
   hello: {
     'en-US': 'Hello',
     'uk-UA': 'Привіт',

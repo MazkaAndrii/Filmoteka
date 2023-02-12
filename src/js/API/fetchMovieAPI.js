@@ -26,13 +26,14 @@ export default class MovieDB {
 
   // Запит на отримання фільмів по запиту (пошуку)
   async fetchSearchMovie(lang) {
-    const url = `search/movie/?query=${this.#searchQuery}&page=${
+    const url = `search/movie?query=${this.#searchQuery}&page=${
       this.#page
     }&language=${lang}`;
 
     const { data } = await axios.get(url, this.#moviesParams);
 
     return data;
+    console.log(data);
   }
 
   // Запит на отримання жанрів фільмів
